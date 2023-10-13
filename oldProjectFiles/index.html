@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+	<!-- react framework (you need both files)
+	<script src="https://fb.me/react-0.14.3.min.js"></script>
+	<script src="https://fb.me/react-dom-0.14.3.min.js"></script>-->
+	<script src="./transactionConfirmation.js"></script>
+	<script src="./loadFiles.js"></script>
+	<title>Monthly Finantial Uploader</title>
+	<style>
+		div {
+			margin-bottom: 10px;
+		}
+		label {
+			display: inline-block;
+			width: 170px;
+			text-align: right;
+			padding-right: 7px;
+		}
+	</style>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script>
+		$(document).ready(function()
+		{
+			loadFiles();
+		});
+	</script>
+</head>
+<body>
+	<div id="content"></div>
+</body>
+</html>
